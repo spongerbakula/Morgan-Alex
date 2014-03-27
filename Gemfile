@@ -26,7 +26,7 @@ gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
-
+gem 'nokogiri', '1.5.0'
 # learn-rails
 gem 'activerecord-tableless'
 gem 'figaro'
@@ -34,7 +34,7 @@ gem 'foundation-rails'
 gem 'gibbon'
 gem 'high_voltage'
 gem 'simple_form'
-
+gem 'google_drive'
 
 group :doc do
 # bundle exec rake doc:rails generates the API under doc/api.
