@@ -1,7 +1,6 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app is Alex and Morgan learning how to code in Rails.  It will be super awesome, and if you disagree, you are a turd burgler.
 
 Things you may want to cover:
 
