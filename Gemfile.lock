@@ -19,6 +19,8 @@ GEM
       activesupport (= 4.0.3)
       arel (~> 4.0.0)
     activerecord-deprecated_finders (1.0.3)
+    activerecord-tableless (1.3.3)
+      activerecord (>= 2.3.0)
     activesupport (4.0.3)
       i18n (~> 0.6, >= 0.6.4)
       minitest (~> 4.2)
@@ -37,7 +39,20 @@ GEM
     coffee-script-source (1.7.0)
     erubis (2.7.0)
     execjs (2.0.2)
+    figaro (0.7.0)
+      bundler (~> 1.0)
+      rails (>= 3, < 5)
+    foundation-rails (5.2.1.0)
+      railties (>= 3.1.0)
+      sass (>= 3.2.0)
+    gibbon (1.1.2)
+      httparty
+      multi_json (>= 1.3.4)
+    high_voltage (2.1.0)
     hike (1.2.3)
+    httparty (0.13.0)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
     i18n (0.6.9)
     jbuilder (1.2.0)
       activesupport (>= 3.0.0)
@@ -51,6 +66,7 @@ GEM
     mime-types (1.25.1)
     minitest (4.7.5)
     multi_json (1.9.0)
+    multi_xml (0.5.5)
     polyglot (0.3.4)
     rack (1.5.2)
     rack-test (0.6.2)
@@ -78,6 +94,9 @@ GEM
     sdoc (0.4.0)
       json (~> 1.8)
       rdoc (~> 4.0, < 5.0)
+    simple_form (3.0.1)
+      actionpack (>= 4.0.0, < 4.1)
+      activemodel (>= 4.0.0, < 4.1)
     sprockets (2.11.0)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -106,12 +125,18 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activerecord-tableless
   coffee-rails (~> 4.0.0)
+  figaro
+  foundation-rails
+  gibbon
+  high_voltage
   jbuilder (~> 1.2)
   jquery-rails
   rails (= 4.0.3)
   sass-rails (~> 4.0.0)
   sdoc
+  simple_form
   sqlite3
   turbolinks
   uglifier (>= 1.3.0)
