@@ -1,6 +1,6 @@
 == README
 
-This app is Alex and Morgan learning how to code in Rails.  It will be super awesome, and if you disagree, you are a turd burgler.
+This app is Alex and Morgan learning how to code in Rails.  It will be super awesome, and if you disagree, you are a turd burglar.
 
 Things you may want to cover:
 
